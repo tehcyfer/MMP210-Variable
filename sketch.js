@@ -26,9 +26,9 @@ function draw() {
     ellipse(cloudTwo, 150, CloudWidth, CloudHeight);
     ellipse(cloudThree, 400, CloudWidth, CloudHeight);
     ellipse(cloudFour, 370, CloudWidth, CloudHeight);
-    ellipse(cloudFive, 370, CloudWidth, CloudHeight);
-    ellipse(cloudSix, 370, CloudWidth, CloudHeight);
-    ellipse(cloudSeven, 370, CloudWidth, CloudHeight);
+    ellipse(cloudFive, 50, CloudWidth, CloudHeight);
+    ellipse(cloudSix, 450, CloudWidth, CloudHeight);
+    ellipse(cloudSeven, 480, CloudWidth, CloudHeight);
 
 	
 
@@ -58,17 +58,29 @@ function draw() {
 	}
 	
 		if (cloudFive > 500) { 
-		cloudFour = 0;
+		cloudFive = 0;
 	}
 
 		if (cloudSix > 500) { 
-		cloudFour = 0;
+		cloudSix = 0;
 	}
 
 		if (cloudSeven > 500) { 
-		cloudFour = 0;
+		cloudSeven = 0;
 	}
 
+cloudSeven{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
+cloudFive{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
+cloudTwo{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 }
