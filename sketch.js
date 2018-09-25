@@ -69,18 +69,4 @@ function draw() {
 		cloudSeven = 0;
 	}
 
-cloudSeven{
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-cloudFive{
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-cloudTwo{
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
 }
